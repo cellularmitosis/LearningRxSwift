@@ -24,7 +24,7 @@ class ViewController: UIViewController {
         button.rx.controlEvent(.touchDown).subscribe { _ in
             self.view.backgroundColor = self.generateRandomColor()
             
-        }.addDisposableTo(disposeBag)
+        }
         
     }
     
