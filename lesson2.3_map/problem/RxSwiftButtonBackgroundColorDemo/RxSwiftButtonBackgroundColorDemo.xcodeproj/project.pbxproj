@@ -14,12 +14,15 @@
 		2B4384311C02407200C0BA06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B43842F1C02407200C0BA06 /* LaunchScreen.storyboard */; };
 		2B43843C1C02407300C0BA06 /* RxSwiftButtonBackgroundColorDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B43843B1C02407300C0BA06 /* RxSwiftButtonBackgroundColorDemoTests.swift */; };
 		2B4384471C02407300C0BA06 /* RxSwiftButtonBackgroundColorDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4384461C02407300C0BA06 /* RxSwiftButtonBackgroundColorDemoUITests.swift */; };
-		2B4384571C02410A00C0BA06 /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B4384541C02410A00C0BA06 /* RxBlocking.framework */; };
-		2B4384581C02410A00C0BA06 /* RxBlocking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2B4384541C02410A00C0BA06 /* RxBlocking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		2B4384591C02410A00C0BA06 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B4384551C02410A00C0BA06 /* RxCocoa.framework */; };
-		2B43845A1C02410A00C0BA06 /* RxCocoa.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2B4384551C02410A00C0BA06 /* RxCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		2B43845B1C02410A00C0BA06 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B4384561C02410A00C0BA06 /* RxSwift.framework */; };
-		2B43845C1C02410A00C0BA06 /* RxSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2B4384561C02410A00C0BA06 /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3DEF14791EB1DAA2000682EC /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DEF14761EB1DAA2000682EC /* RxBlocking.framework */; };
+		3DEF147A1EB1DAA2000682EC /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DEF14771EB1DAA2000682EC /* RxCocoa.framework */; };
+		3DEF147B1EB1DAA2000682EC /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DEF14781EB1DAA2000682EC /* RxSwift.framework */; };
+		3DEF147C1EB1DB3B000682EC /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DEF14761EB1DAA2000682EC /* RxBlocking.framework */; };
+		3DEF147D1EB1DB3B000682EC /* RxBlocking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3DEF14761EB1DAA2000682EC /* RxBlocking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3DEF147E1EB1DB3B000682EC /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DEF14771EB1DAA2000682EC /* RxCocoa.framework */; };
+		3DEF147F1EB1DB3B000682EC /* RxCocoa.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3DEF14771EB1DAA2000682EC /* RxCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3DEF14801EB1DB3B000682EC /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DEF14781EB1DAA2000682EC /* RxSwift.framework */; };
+		3DEF14811EB1DB3B000682EC /* RxSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3DEF14781EB1DAA2000682EC /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,9 +49,9 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				2B43845A1C02410A00C0BA06 /* RxCocoa.framework in Embed Frameworks */,
-				2B4384581C02410A00C0BA06 /* RxBlocking.framework in Embed Frameworks */,
-				2B43845C1C02410A00C0BA06 /* RxSwift.framework in Embed Frameworks */,
+				3DEF147F1EB1DB3B000682EC /* RxCocoa.framework in Embed Frameworks */,
+				3DEF147D1EB1DB3B000682EC /* RxBlocking.framework in Embed Frameworks */,
+				3DEF14811EB1DB3B000682EC /* RxSwift.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -69,9 +72,9 @@
 		2B4384421C02407300C0BA06 /* RxSwiftButtonBackgroundColorDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxSwiftButtonBackgroundColorDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B4384461C02407300C0BA06 /* RxSwiftButtonBackgroundColorDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftButtonBackgroundColorDemoUITests.swift; sourceTree = "<group>"; };
 		2B4384481C02407300C0BA06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2B4384541C02410A00C0BA06 /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
-		2B4384551C02410A00C0BA06 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
-		2B4384561C02410A00C0BA06 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		3DEF14761EB1DAA2000682EC /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxBlocking.framework; sourceTree = "<group>"; };
+		3DEF14771EB1DAA2000682EC /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxCocoa.framework; sourceTree = "<group>"; };
+		3DEF14781EB1DAA2000682EC /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxSwift.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,9 +82,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B4384591C02410A00C0BA06 /* RxCocoa.framework in Frameworks */,
-				2B4384571C02410A00C0BA06 /* RxBlocking.framework in Frameworks */,
-				2B43845B1C02410A00C0BA06 /* RxSwift.framework in Frameworks */,
+				3DEF147B1EB1DAA2000682EC /* RxSwift.framework in Frameworks */,
+				3DEF147A1EB1DAA2000682EC /* RxCocoa.framework in Frameworks */,
+				3DEF14801EB1DB3B000682EC /* RxSwift.framework in Frameworks */,
+				3DEF14791EB1DAA2000682EC /* RxBlocking.framework in Frameworks */,
+				3DEF147E1EB1DB3B000682EC /* RxCocoa.framework in Frameworks */,
+				3DEF147C1EB1DB3B000682EC /* RxBlocking.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,9 +111,9 @@
 		2B43841A1C02407200C0BA06 = {
 			isa = PBXGroup;
 			children = (
-				2B4384541C02410A00C0BA06 /* RxBlocking.framework */,
-				2B4384551C02410A00C0BA06 /* RxCocoa.framework */,
-				2B4384561C02410A00C0BA06 /* RxSwift.framework */,
+				3DEF14761EB1DAA2000682EC /* RxBlocking.framework */,
+				3DEF14771EB1DAA2000682EC /* RxCocoa.framework */,
+				3DEF14781EB1DAA2000682EC /* RxSwift.framework */,
 				2B4384251C02407200C0BA06 /* RxSwiftButtonBackgroundColorDemo */,
 				2B43843A1C02407300C0BA06 /* RxSwiftButtonBackgroundColorDemoTests */,
 				2B4384451C02407300C0BA06 /* RxSwiftButtonBackgroundColorDemoUITests */,
@@ -434,6 +440,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = RxSwiftButtonBackgroundColorDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -449,6 +456,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = RxSwiftButtonBackgroundColorDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
